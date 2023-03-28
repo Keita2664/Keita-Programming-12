@@ -33,7 +33,6 @@ public class CircleTest {
     @Test public void testBoundaries(){
         // 0.1 * 0.1 * 3.14
         // 0 * 0 * 3.14
-        // -0.1 * -0.1 * 3.14
         assertEquals(0.1 * 0.1 * 3.14, new Circle(0.1).getArea(),.001);
         assertEquals(0 * 0 * 3.14, new Circle(0).getArea(), .001);
     }

@@ -18,7 +18,7 @@ public class TriangleTest {
     /**
      * partitioned the inputs as follows
      * Height -> positive
-     * Width -> negative
+     * Width -> positive
      *
      * Height = 0.1, 0
      * Width = 0.1, 0
