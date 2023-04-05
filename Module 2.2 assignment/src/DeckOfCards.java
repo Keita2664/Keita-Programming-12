@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.List;
 
 public class DeckOfCards{
     private int numberCards;
@@ -22,18 +21,18 @@ public class DeckOfCards{
             deckOfCards.add(new NumberCards(i + 1, Symbols.SPADES));
         }
 
-        deckOfCards.add(new FaceCards("Jack",Symbols.CLUBS));
-        deckOfCards.add(new FaceCards("Jack",Symbols.DIAMONDS));
-        deckOfCards.add(new FaceCards("Jack",Symbols.HEARTS));
-        deckOfCards.add(new FaceCards("Jack", Symbols.SPADES));
-        deckOfCards.add(new FaceCards("Queen", Symbols.CLUBS));
-        deckOfCards.add(new FaceCards("Queen",Symbols.DIAMONDS));
-        deckOfCards.add(new FaceCards("Queen",Symbols.HEARTS));
-        deckOfCards.add(new FaceCards("Queen",Symbols.SPADES));
-        deckOfCards.add(new FaceCards("King",Symbols.CLUBS));
-        deckOfCards.add(new FaceCards("King",Symbols.DIAMONDS));
-        deckOfCards.add(new FaceCards("King",Symbols.HEARTS));
-        deckOfCards.add(new FaceCards("King",Symbols.SPADES));
+        deckOfCards.add(new FaceCards("Jack", Symbols.CLUBS, 11));
+        deckOfCards.add(new FaceCards("Jack", Symbols.DIAMONDS, 11));
+        deckOfCards.add(new FaceCards("Jack", Symbols.HEARTS, 11));
+        deckOfCards.add(new FaceCards("Jack", Symbols.SPADES, 11));
+        deckOfCards.add(new FaceCards("Queen", Symbols.CLUBS, 12));
+        deckOfCards.add(new FaceCards("Queen", Symbols.DIAMONDS, 12));
+        deckOfCards.add(new FaceCards("Queen", Symbols.HEARTS, 12));
+        deckOfCards.add(new FaceCards("Queen", Symbols.SPADES, 12));
+        deckOfCards.add(new FaceCards("King", Symbols.CLUBS, 13));
+        deckOfCards.add(new FaceCards("King", Symbols.DIAMONDS, 13));
+        deckOfCards.add(new FaceCards("King", Symbols.HEARTS, 13));
+        deckOfCards.add(new FaceCards("King", Symbols.SPADES, 13));
     }
 
     public ArrayList<Cards> getArrayList(){

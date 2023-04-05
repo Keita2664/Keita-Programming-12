@@ -1,23 +1,23 @@
 public class NumberCards extends Cards{
-    private int numberOfCards;
+    private int numbers;
     private Symbols symbolOfCards;
 
-    public NumberCards(int numberOfCards, Symbols symbolOfCards){
-        this.numberOfCards = numberOfCards;
+    public NumberCards(int numbers, Symbols symbolOfCards){
+        this.numbers = numbers;
         this.symbolOfCards = symbolOfCards;
     }
 
     public NumberCards(){
-        numberOfCards = 0;
+        numbers = 0;
         symbolOfCards = Symbols.NONE;
     }
 
-    public int getNumberOfCards() {
-        return numberOfCards;
+    public int getNumbers() {
+        return numbers;
     }
 
-    public void setNumberOfCards(int numberOfCards) {
-        this.numberOfCards = numberOfCards;
+    public void setNumbers(int numberOfCards) {
+        this.numbers = numberOfCards;
     }
 
     public Symbols getSymbolOfCards() {
@@ -29,6 +29,6 @@ public class NumberCards extends Cards{
     }
 
     public String toString(){
-        return "Number: " + getNumberOfCards() + "\tSymbol: " + getSymbolOfCards();
+        return "Number: " + getNumbers() + "\tSymbol: " + getSymbolOfCards();
     }
 }

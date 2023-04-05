@@ -1,4 +1,6 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
 public class Main {
     private DeckOfCards deckOfCards;
@@ -18,5 +20,8 @@ public class Main {
         for (int i = 0; i < 7; i++){
             System.out.println(deckOfCards.pollLast());
         }
+
+
+
     }
 }

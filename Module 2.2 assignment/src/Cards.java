@@ -3,9 +3,10 @@ public class Cards {
     private String faces;
     private Symbols symbols;
 
-    public Cards(int numbers,String faces){
+    public Cards(int numbers,String faces, Symbols symbols){
         this.numbers = numbers;
         this.faces = faces;
+        this.symbols = symbols;
     }
 
     public Cards(){
