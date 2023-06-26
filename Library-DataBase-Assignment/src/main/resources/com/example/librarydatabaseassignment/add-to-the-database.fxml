@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.librarydatabaseassignment.HelloController">
+   <children>
+      <AnchorPane prefHeight="401.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="208.0" layoutY="23.0" text="Book Information">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <VBox alignment="CENTER_RIGHT" layoutX="189.0" layoutY="59.0" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+               <children>
+                  <Label text="Title">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label text="Author">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label text="Genre">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label text="Quantity">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label text="BookID">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox layoutX="300.0" layoutY="71.0" prefHeight="200.0" prefWidth="100.0" spacing="12.0">
+               <children>
+                  <TextField fx:id="lblNewBookTitle" promptText="Title" />
+                  <TextField fx:id="lblNewBookAuthor" promptText="Author" />
+                  <TextField fx:id="lblNewBookGenre" promptText="Genre" />
+                  <TextField fx:id="lblNewBookQuantity" promptText="Quantity" />
+                  <TextField fx:id="lblNewBookID" promptText="BookID" />
+               </children>
+            </VBox>
+            <Button layoutX="281.0" layoutY="321.0" mnemonicParsing="false" onAction="#addToTheDatabase" text="Add" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
